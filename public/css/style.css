@@ -28,7 +28,7 @@
 }
 #preloader span{
   position: fixed;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   color: #4070f4;
 }
@@ -211,6 +211,7 @@ img {
 }
 .nav_logo {
   width: 45px;
+  padding-top: 8px;
 }
 .nav_toggle {
   font-size: 1.5rem;
@@ -571,7 +572,6 @@ input, textarea{
   background-color: var(--second-color);
   color: #ffffff;
   text-align: center;
-  font-weight: var(--font-weight);
   padding: 2rem 0;
   display: flex;
   flex-direction: column-reverse;
@@ -581,9 +581,11 @@ input, textarea{
   margin-bottom: var(--mb-4);
   width: 45px;
   order: 1;
+  margin-left: -20px;
 }
 .footer_social{
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
+  margin-top: -25px;
 }
 .footer_social a{
   font-size: 25px;
@@ -752,11 +754,13 @@ color: var(--primary-color);
     margin-bottom:0;
     width: 45px;
     order: -1;
+    margin-left: 10px;
   }
   .copy_text{
     margin-bottom: 0;
   }
   .footer_social{
+    margin-top: 10px;
     margin-bottom: 0;
   }
   
